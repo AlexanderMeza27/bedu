@@ -1,0 +1,72 @@
+body {
+    background-color: papayawhip;
+  }
+  
+  h1 {
+    color: #46484c;
+    text-align: center;
+  }
+  
+  p {
+    color: #8b8b8bcc;
+    font-family: verdana;
+    font-size: 20px;
+  }
+  
+  button {
+    color: #fff;
+    background-color: greenyellow;
+  }
+  
+  .header {
+      margin: 40 px 20 px auto 20 px;
+    font-size: 0;
+    line-height: 45px;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+  }
+  
+  .logo {
+    width: 15%;
+  }
+  
+  .navbar {
+    width: 70%;
+    text-align: left;
+    color:#025157;
+    font-weight: 500;
+    line-height: 45 px;
+    font-family: sans-serif;
+    padding: 0px 50px 0px 50px;
+  }
+  
+  .actions {
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10 px
+  }
+  .actions > *{
+      margin: 10px;
+  }
+  .actions button{
+      padding: 12px 14px 12px 14px;
+      border: none;
+      border-radius: 5px;
+  }
+  
+  li {
+padding-left: 25px;
+padding-right: 25px;
+  }
