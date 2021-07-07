@@ -156,26 +156,188 @@
 <!--HOTELES-->
          <div role="tabpanel" class= "tab-pane" id="hospedaje">
           <h5 class="card-title">Tu hogar por este viaje</h5>
-          <p class="card-text">Encuentra e</p>
-          <a href="#" class="btn btn-primary">Mas</a>
-         </div>
+          <p class="card-text">Encuentra los mejores Hoteles, Resorts y Alojamientos para ti y compañia</p>
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="inputState">
+                  <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/location-alt-512.png">
+                  Destino</label>
+                <input type="text" class="form-control" id="inputState" placeholder="Hotel...">
+              </div>
+              <div class="form-group col-md-2"> 
+                <label for="inputZip"> <img src="https://andreyferreiroabogados.files.wordpress.com/2018/05/calendario-con-plazo.png">
+                  Check-in</label> 
+                <input type="text" class="form-control" id="inputsalida" placeholder="DD/MM/AAAA"> 
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip"> <img src="https://eebe.upc.edu/es/imagenes/calendar-check_icon-icons-com_56836.png/@@images/2d0f1889-36f8-4696-9e49-68ed43aae619.png">
+                 Check-out</label>
+                <input type="text" class="form-control" id="inputvuelta" placeholder="DD/MM/AAAA">
+              </div>
 
+              <div class="form-group col-md-2"> 
+                <label for="inputZip"> <img src="https://img.pngio.com/bed-icon-png-299677-free-icons-library-bed-icon-png-1600_1600.jpg">
+                  Camas</label> 
+                <input type="text" class="form-control" id="inputsalida" placeholder="Camas..."> 
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip"> <img src="https://www.freeiconspng.com/thumbs/person-icon/clipart--person-icon--cliparts-15.png">
+                 Personas</label>
+                <input type="text" class="form-control" id="inputvuelta" placeholder="Huespedes">
+              </div>
+            </div>
+          </form>
+          <a href="#" class="btn btn-primary">Buscar</a>
+         </div>
+<!--PAQUETES-->
          <div role="tabpanel" class= "tab-pane" id="paquetes">
           <h5 class="card-title">Encuentra todo para tu viaje</h5>
-          <p class="card-text">Encuentra e</p>
+          <p class="card-text">Consigue todo lo necesario para que disfrutes tu viaje </p>
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+              <input type="radio" name="options" id="option1" checked> Vuelo + Hotel
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option2"> Vuelo + Hotel + Actividades
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option3"> Todo Pagado
+            </label>
+          </div>
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="inputCity">
+                  <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/location-alt-512.png">
+                   Origen</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">
+                  <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/location-alt-512.png">
+                  Destino</label>
+                <input type="text" class="form-control" id="inputState">
+              </div>
+              <div class="form-group col-md-2"> 
+                <label for="inputZip"> <img src="https://andreyferreiroabogados.files.wordpress.com/2018/05/calendario-con-plazo.png">
+                  Salida</label> 
+                <input type="text" class="form-control" id="inputsalida" placeholder="DD/MM/AAAA"> 
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip"> <img src="https://eebe.upc.edu/es/imagenes/calendar-check_icon-icons-com_56836.png/@@images/2d0f1889-36f8-4696-9e49-68ed43aae619.png">
+                  Vuelta</label>
+                <input type="text" class="form-control" id="inputvuelta" placeholder="DD/MM/AAAA">
+              </div>
+            </div>
+          </form>
           <a href="#" class="btn btn-primary">Mas</a>
          </div>
-
+<!--ACTIVIDADES-->
          <div role="tabpanel" class= "tab-pane" id="actividades">
           <h5 class="card-title">Conoce, Explora, Disfruta y mas!</h5>
-          <p class="card-text">Encuentra e</p>
-          <a href="#" class="btn btn-primary">Lonk</a>
-         </div>
+          <p class="card-text">Encuentra las mejores actividades en tu viaje</p>
 
+           <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">
+                  <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/location-alt-512.png">
+                   Origen</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="Ciudad">
+              </div>
+              <div class="form-group col-md-3"> 
+                <label for="inputZip"> <img src="https://andreyferreiroabogados.files.wordpress.com/2018/05/calendario-con-plazo.png">
+                  Check-in</label> 
+                <input type="text" class="form-control" id="inputsalida" placeholder="DD/MM/AAAA"> 
+              </div>
+              <div class="form-group col-md-3">
+                <label for="inputZip"> <img src="https://eebe.upc.edu/es/imagenes/calendar-check_icon-icons-com_56836.png/@@images/2d0f1889-36f8-4696-9e49-68ed43aae619.png">
+                  Check-out</label>
+                <input type="text" class="form-control" id="inputvuelta" placeholder="DD/MM/AAAA">
+              </div>
+            </div>
+          </form>
+          <a href="#" class="btn btn-primary">Mas</a>
+         </div>
+<!--Vehiculos-->
          <div role="tabpanel" class= "tab-pane" id="vehiculos">
           <h5 class="card-title">Haz tu propio camino </h5>
-          <p class="card-text">Encuentra e</p>
-          <a href="#" class="btn btn-primary">Lonk</a>
+          <form>
+            <div class="form-row align-items-center">
+              <p class="card-text">Encuentra el mejor vehiculo para tu viaje</p>
+              
+              <div class="col-md-2">
+                <label class="mr-sm-1 sr-only" for="inlineFormCustomSelect">Pasajeros</label>
+                <select class="custom-select mr-sm-1" id="inlineFormCustomSelect">
+                  <option selected>Pasajeros...</option>
+                  <option value="1">2</option>
+                  <option value="2">5</option>
+                  <option value="3">7</option>
+                  <option value="4">7+</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label class="mr-sm-1 sr-only" for="inlineFormCustomSelect">Personas</label>
+                <select class="custom-select mr-sm-1" id="inlineFormCustomSelect">
+                  <option selected>Clase...</option>
+                  <option value="1">Clase A</option>
+                  <option value="2">Clase B</option>
+                  <option value="3">Clase C</option>
+                  <option value="4">Clase D</option>
+                  <option value="2">Clase E</option>
+                  <option value="3">De Lujo</option>
+                  <option value="4">Superdeportivo</option>
+                </select>
+              </div>
+              
+              
+            </div>
+          </form>
+  
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">
+                  <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/location-alt-512.png">
+                   Entrega</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="Lugar de entrega">
+              </div>
+              <div class="form-group col-md-6"> 
+                <label for="inputZip"> <img src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/location-alt-512.png">
+                  Devolucion</label> 
+                <input type="text" class="form-control" id="inputsalida" placeholder="Lugar de devolucion"> 
+              </div>
+            </div>
+          </form>
+
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-3">
+                <label for="inputCity">
+                  <img src="https://img.icons8.com/windows/452/calendar-week.png">
+                   Fecha de Entrega</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="DD/MM/AAAA">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="inputState">
+                  <img src="https://img.icons8.com/windows/452/calendar-week.png">
+                  Fecha de Devolucion</label>
+                <input type="text" class="form-control" id="inputState" placeholder="DD/MM/AAAA">
+              </div>
+              <div class="form-group col-md-3"> 
+                <label for="inputZip"> <img src="https://image.flaticon.com/icons/png/512/223/223404.png">
+                  Hora de Entrega</label> 
+                <input type="text" class="form-control" id="inputsalida" placeholder="23:59"> 
+              </div>
+              <div class="form-group col-md-3">
+                <label for="inputZip"> <img src="https://image.flaticon.com/icons/png/512/223/223404.png">
+                  Hora de Devolucion</label>
+                <input type="text" class="form-control" id="inputvuelta" placeholder="23:59">
+              </div>
+            </div>
+          </form>
+          <a href="#" class="btn btn-primary">Buscar</a>
          </div>
 
     </div>
