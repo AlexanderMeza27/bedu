@@ -94,9 +94,38 @@
 
          <div role="tabpanel" class= "tab-pane active" id="vuelos">
           <h5 class="card-title">Hasta tu destino por las nubes</h5>
-          <p class="card-text">Encuentra los mejores vuelos para ti y compañia</p>
           <form>
-        
+            <div class="form-row align-items-center">
+              <p class="card-text">Encuentra los mejores vuelos para ti y compañia</p>
+              
+              <div class="col-md-2">
+                <label class="mr-sm-1 sr-only" for="inlineFormCustomSelect">Personas</label>
+                <select class="custom-select mr-sm-1" id="inlineFormCustomSelect">
+                  <option selected>Pasajeros...</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="1">4</option>
+                  <option value="2">5</option>
+                  <option value="3">6+</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label class="mr-sm-1 sr-only" for="inlineFormCustomSelect">Personas</label>
+                <select class="custom-select mr-sm-1" id="inlineFormCustomSelect">
+                  <option selected>Clase...</option>
+                  <option value="1">Turista</option>
+                  <option value="2">Turista Premium</option>
+                  <option value="3">Ejecutiva</option>
+                  <option value="4">Primera Clase</option>
+                </select>
+              </div>
+              
+              
+            </div>
+          </form>
+  
+          <form>
             <div class="form-row">
               <div class="form-group col-md-4">
                 <label for="inputCity">
