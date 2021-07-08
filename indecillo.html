@@ -49,13 +49,51 @@
           </ul>
         <div class= "botos">
           <form class="formx">
-            <a class= "nav-link" href= "#"> Inicia Sesion</a>
-            <button>Registrate</button>
+            
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" 
+              type="button" id="dropdownMenuButton" data-toggle="dropdown" 
+              aria-haspopup="true" aria-expanded="false">
+                Inicia sesion
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <form class="px-4 py-3">
+                  <div class="form-group">
+                    <label for="exampleDropdownFormEmail1">E-Mail</label>
+                    <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@neni.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleDropdownFormPassword1">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña">
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                      <label class="form-check-label" for="dropdownCheck">
+                        Recuerdame
+                      </label>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
+                </form>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Nuevo por aqui? Registrate</a>
+                <a class="dropdown-item" href="#">Olvidaste tu contraseña?</a>
+              </div>
           </form>
         </div>
         </div>
       </nav>
-  
+    
+      <form class= "signup-form" action="" >
+        <p>Start Publishing Today</p>
+        <div>
+          <input type="email" placeholder="enter email" required/>
+          <button type="submit">Start My Trial</button>
+        </div>
+      </form>
+
+      </div>
 <!--Tab de tipos-->
 <section class="container">
 <div class="card">
@@ -260,6 +298,7 @@
           </form>
           <a href="#" class="btn btn-primary">Mas</a>
          </div>
+
 <!--Vehiculos-->
          <div role="tabpanel" class= "tab-pane" id="vehiculos">
           <h5 class="card-title">Haz tu propio camino </h5>
@@ -339,10 +378,8 @@
           </form>
           <a href="#" class="btn btn-primary">Buscar</a>
          </div>
-
     </div>
   </div>
-  
 </div>
 </section>
 
@@ -373,7 +410,7 @@
       <img src="carta.jpg" class="d-block w-100" alt="carta">
       <div class="carousel-caption d-none d-md-block">
         <h5>Cartagena, Colombia</h5>
-        <p>Vuelo + Hotel # 1,299.99 USD.</p>
+        <p>Vuelo + Hotel $ 1,299.99 USD.</p>
       </div>
     </div>
     <div class="carousel-item">
@@ -398,67 +435,65 @@
 <section class="container blog">
  <section class="row">
     <div class="col">
-      <h2 class="title">Learn how to grow your ecommerce business.</h2>
+      <h2 class="title">Encuentra las mejores ofertas para tus viajes.</h2>
       <article class="process-list">
         <div class="process">
           <div class="process-icon">
-            <img src="https://cdn.iconscout.com/icon/free/png-256/build-20-454867.png" alt="Build icon" />
+            <img src="https://www.pngkey.com/png/full/204-2049353_aircraft-icon-free-download-png-and-vector-airplane.png" alt="Build icon" />
           </div>
           <div class="process-description">
-            <h3>Build</h3>
-            <p>and scale your ecommerce store</p>
+            <h3>Vuelos</h3>
+            <p>Vuela en primera clase a precio de Turista con nuestras ofertas!</p>
           </div>
         </div>
         <div class="process">
           <div class="process-icon">
-            <img src="https://catwatchful.com/main/wp-content/uploads/2014/09/rocket-icon.png" alt="Attract icon" />
+            <img src="https://lh3.googleusercontent.com/proxy/zvSPouRS63RGQq9vpXHdurfsV8bgthrs4g-G-hn1mdqBzBCDryvpvmoLif9x_D7znrITfgmHq9K2LId9QVEQe5BBjwDSwW8F_tyqxFNCwWoJYYZJMgs-Wh4w-kLYTsnaSTA" alt="Attract icon" />
           </div>
           <div class="process-description">
-            <h3>Attract</h3>
-            <p>your target audience and grow site traffic</p>
+            <h3>Hoteles</h3>
+            <p>Relajate en un Hotel 5 Estrellas a Precio de Motel!</p>
           </div>
         </div>
         <div class="process">
           <div class="process-icon">
-            <img src="https://icon-library.com/images/icon-convert/icon-convert-2.jpg" alt="Convert icon" />
+            <img src="https://cdn.pixabay.com/photo/2017/02/01/11/20/drive-2029742__480.png" alt="Convert icon" />
           </div>
           <div class="process-description">
-            <h3>Convert</h3>
-            <p>readers to subscribers and customers</p>
+            <h3>Vehiculos</h3>
+            <p>Recorre tu vacacion con lujo y confort de manera accesible!</p>
           </div>
         </div>
       </article>
-      <button>Read the blog</button>
+      <button>Conoce la oferta</button>
    
     </div>
      <div class="col">
           <div class="card">
             <img
-              src="https://getmatcha.com/wp-content/uploads/2019/03/david-marcu-114194-1052x699.jpg"
+              src="https://es.xelha.com/img/actividades/nado-con-delfines-interax/delfines-interax-2.jpg"
               class="card-img-top"
               alt="Ecommerce Blogging: The 2020 Guide for Online Stores and DTC Brands"
             />
             <div class="card-body">
               <h5 class="card-title">
-                Ecommerce Blogging: The 2020 Guide for Online Stores and DTC
-                Brands
+                Nada con delfines en la Riviera Maya
               </h5>
               <p class="metadata">
-                <strong class="category">Performance Blogging </strong>
-                <strong class="read-time">• 21 mins read</strong>
+                <strong class="category">Grupo Xel-Ha </strong>
+                <strong class="read-time">• 21 de Junio</strong>
               </p>
               <p class="card-text">
-                Table of ContentsWhy Ecommerce Businesses Need a Blog in
-                2020Document Your Ecommerce Blog StrategyPublication: How to
-                Create High-Performing Blog ContentDistribution:...
-                <span class="read-more">+ <a>Read More</a></span>
+                Prepárate para vivir en carne propia una de las actividades más emocionantes de Cancún y la Riviera Maya gracias a Nado con Delfines Interax en Xel-Há. Anímate a conocer a estos amigables y divertidos animales en su hábitat natural y comparte un momento único con ellos.
+              <span class="read-more">...+<a> Ver mas</a></span>
               </p>
               <div class="author d-flex align-items-center">
                 <img
-                  src="https://secure.gravatar.com/avatar/b1c37d9c6b3a36a5eb64d7112bf71ca4?s=96&d=retro&r=g"
-                  alt="Shauna Ward"
+                  src="data:image/png;base64,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"
+                  alt="Xcaret"
                 />
-                <p>Shauna Ward</p>
+                <p>Grupo Xcaret</p>
+              
               </div>
             </div>
           </div>
@@ -466,31 +501,30 @@
         <div class="col">
           <div class="card">
             <img
-              src="https://getmatcha.com/wp-content/uploads/2019/06/arnel-hasanovic-MNd-Rka1o0Q-1049x699.jpg"
+              src="https://www.cambio16.com/wp-content/uploads/2017/08/Riviera-Italiana-1000x666.jpg"
               class="card-img-top"
               alt="What Is Licensed Content and How Does It Help Your Business Grow?"
             />
             <div class="card-body">
               <h5 class="card-title">
-                What Is Licensed Content and How Does It Help Your Business
-                Grow?
+                Viva un verano de lujo en la Riviera Italiana.
               </h5>
               <p class="metadata">
-                <strong class="category">Performance Blogging </strong>
-                <strong class="read-time">• 6 mins read</strong>
+                <strong class="category">Italy Travels </strong>
+                <strong class="read-time"> 4 de Julio </strong>
               </p>
               <p class="card-text">
-                TL;DR: Licensed content, sometimes called syndicated content, is
-                content produced by a professional publisher that can be legally
-                licensed for...
-                <span class="read-more">+ <a>Read More</a></span>
+                Italia es uno de los países más bellos del mundo. Tiene mar y montaña y una gastronomía espectacular… 
+                Pero hoy vamos a hablar de la Riviera italiana, una zona costera situada en la parte noroccidental de la península en donde nos podremos perder 
+                por maravillosos pueblos que miran al mar y que han inspirado a muchos artistas a lo largo de la historia.
+                <span class="read-more">...+ <a>Ver Mas</a></span>
               </p>
               <div class="author d-flex align-items-center">
                 <img
-                  src="https://secure.gravatar.com/avatar/c2f0381c76fae0875a4c15deb4e0a2f8?s=96&d=retro&r=g"
+                  src="https://www.italy-travels.it/wp-content/uploads/2019/02/Logo-nuovo.png"
                   alt="Rob Glover"
                 />
-                <p>Rob Glover</p>
+                <p>Italy Travels</p>
               </div>
             </div>
           </div>
@@ -500,7 +534,7 @@
     </section>
 </section>
 
-
+<!--
 <article class="publish">
         <form>
            
@@ -516,46 +550,123 @@
         </figure>
         </article>
     </div>
-
+  -->
     <section class="promo">
         <article class="videoPromo">
-            <video controls poster="https://cdn.wallpapersafari.com/92/80/jMoN8Y.jpg"
-            width="500" height="300">
+            <video controls poster="http://www.mexicodestinos.com/blog/wp-content/uploads/2012/07/xcaret.jpg"
+            width="580" height="450">
                 <source 
-                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" 
+                    src="./video.mp4" 
                     type="video/web,"
                 >
                 <source
                     type="video/webm"
-                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+                    src="./video.mp4"
                 />
             </video>
     
             <img
-                src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
+                src="https://ofertas.visitmexico.com/assets/images/vmlogo0.png"
                 alt="See how it works"
             />
         </article>
 
         <article class="publicidad">
-            <h3>Publish to your blog in minutes, not hours.</h3>
+            <h3>Descubre Fascinantes destinos en Mexico.</h3>
             <p>
-                Your blog is your most powerful asset to build, engage, and retain a 
-                loyal audience. But you don’t have hours to create content that may or 
-                may not work. With Matcha, instantly publish from our library of 
-                10,000+ professionally written articles and build your email list faster 
-                with our powerful conversion tool.
+              Ven y viaja a México; un viaje encantador a través de sus tradiciones y naturaleza 
+              en el EcoPark arqueológico Xcaret. ¡Disfruta de una experiencia inolvidable con espectáculos, 
+              exquisita gastronomía y la alegría de un país que te recibe con los brazos abiertos!
+            </p>
+            <p>
+              El Parque Xcaret está ubicado en el corazón de la Riviera Maya, a menos de 15 minutos 
+              al sur de Playa del Carmen y 1 hora al sur de Cancún, ofreciendo innumerables actividades
+               culturales, eventos y tradiciones de México.
             </p>
             <form>
-                <p>Start publishing today:</p>
+                <p>Quieres saber mas?</p>
                 <div>
-                    <input type="text" placeholder="Enter email" />
-                    <button>Start My Trial</button>
+                    <input type="text" placeholder="E-Mail" />
+                    <button>Empezar mi Viaje</button>
                 </div>
             </form>
         </article>
     </section>
 
+
+    <section class="how-does-matcha">
+      <header class="how-does-matcha-header">
+          <h2>Conoce los mejores destinos para este verano</h2>
+          <p>Viaja a un destino paradisiaco para relajarte o una playa para fiestear o <strong>¿Por que no ambos?</strong>
+             conoce las mejores playas y parques de Latinoamerica </p>
+          <button>Conocer la oferta</button>
+      </header>
+      <div class="how-does-matcha-card">
+          <div class="card-img">
+              <img src="https://megustavolar.iberia.com/wp-content/uploads/Copabacana_Brasil_Rio_Janeiro_Catarina-Belova_Shutterstock.jpg" alt="Publish">
+              <img src="https://icons.iconarchive.com/icons/wikipedia/flags/512/BR-Brazil-Flag-icon.png" alt="Content icon"
+                  class="card-icon">
+          </div>
+          <div class="card-content">
+              <h3>Copacabana-Ipanema, Brasil</h3>
+              <p>Hermosas extensiones de arena dorada que están a solo
+                 unos metros de la bulliciosa ciudad, y cada una tiene 
+                 una variedad de bares y clubes frente a la playa.</p>
+                 <p> Todo Incluido Desde $ 799.99 </p>
+                 <br> <br> <br>
+              <a href="#">Agenda hoy →</a>
+          </div>
+      </div>
+      <div class="how-does-matcha-card">
+          <div class="card-img">
+              <img src="https://media.triseptsolutions.com/sites/vaxwebfjt/PublishingImages/FJT_images/Destinations/Mexico/LosCabos/12-11-19_water-sports.jpg" alt="Promote" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Mexico.png/1200px-Flag_of_Mexico.png" alt="Content icon"
+                  class="card-icon">
+          </div>
+          <div class="card-content">
+              <h3>Los Cabos San Lucas, Mexico</h3>
+              <p>Cabo es famoso tanto por sus impresionantes playas como por su excelente vida nocturna.
+                 La acción se centra en Playa El Médano, que está llena de animados bares de playa
+                  que sirven cócteles auténticos y mariscos frescos durante todo el día. </p>
+                  <br> <br> <br>
+                  <p> Todo Incluido Desde $ 499.99</p>
+
+              <a href="#">Agenda hoy →</a>
+          </div>
+      </div>
+      <div class="how-does-matcha-card">
+          <div class="card-img">
+              <img src="https://a.cdn-hotels.com/gdcs/production50/d1246/408cb57a-0ea4-4168-988e-045188d9a4c0.jpg" alt="Capture">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Bandera_de_Espa%C3%B1a_%28nuevo_dise%C3%B1o%29.svg" alt="Funnel icon"
+                  class="card-icon">
+          </div>
+          <div class="card-content">
+              <h3>Ibiza, España</h3>
+              <p>Durante el día, clubes de playa como El Chiringuito y Blue Marlin
+                 organizan fiestas salvajes llenas de gente hermosa de todo el mundo.
+                  Para ver a la famosa multitud de la jet-set de Ibiza, diríjase 
+                  a la playa de Salinas, pero asegúrese de que su ropa de playa de diseñador 
+                  y sus gafas de sol de gran tamaño estén a la altura.</p>
+                  <br> <br> <br><br> <br> 
+                  <p> Todo Incluido Desde $ 899.99</p>
+              <a href="#">Agenda hoy →</a>
+          </div>
+      </div>
+      <div class="how-does-matcha-card">
+          <div class="card-img">
+              <img src="https://lh3.googleusercontent.com/proxy/MRi1aAH5V1UNKdxCSkzPfZGRreUpx7CFB_0X54PkcafJ4inoh0Kc-uWQeGw0ODbPJq9pZ9vFyex07E3t_WdRKBnIESkRPawjwFwN4aLFUwyyUAks9gSCE6dHmldiohHwSDhI8wCH9cVlHWHBPqiGtRQ" alt="Measure">
+              <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_chart.png" alt="Chart icon"
+                  class="card-icon">
+          </div>
+          <div class="card-content">
+              <h3>Measure</h3>
+              <p>See what’s working and what’s not to easily optimize for more traffic, email subscribers, and
+                  sales.</p>
+              <a href="#">Track performance →</a>
+          </div>
+      </div>
+  </section>
+<!--
     <section class="caracteristicas">
       <div class="row row-cols-1 row-cols-md-2">
         <div class="col mb-4">
@@ -597,7 +708,9 @@
         </div>
       </div>
     </section>
-    
+    -->
+
+    <!--
     <section class="features">
        <div class= "wrapper">
         <article class = "feature-art"> 1
@@ -706,7 +819,7 @@
         </article>
      </div>
     </section>
-
+-->
     <section class="success-stories">
         <article class="overview">
             <h2>Growing ecommerce brands rely on Matcha.</h2>
@@ -805,11 +918,21 @@
           </div>
       </div>
   </section>
-
+  
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<script src="./app.js"></script>
 </body>
+<footer>
+  <article class="frase">
+    <p>Tal como lo ha visto en:</p>
+    <br>
+    <img src="./marcas.png" alt="marcas">
+  </article>
+  <p class="pie">NENiTravel Inc. no es responsable del contenido de los sitios web externos.</p>
+<p class="pie">© 2021 NENiTravel, Inc., una empresa de NENi Group. Todos los derechos reservados. NENiTravel y el logo del avión son marcas registradas o marcas comerciales de NENi, Inc.</p>
+</footer>
+
 </html>

@@ -368,7 +368,7 @@ li{
   }
   
   .how-does-matcha .how-does-matcha-header p strong {
-    color: #67b54b;
+    color: orangered;
   }
   
   .how-does-matcha .how-does-matcha-header button {
@@ -439,7 +439,7 @@ li{
   .how-does-matcha .card-content a {
     font-size: 16px;
     line-height: 1;
-    color: #67b54b;
+    color: lightsalmon;
     font-weight: 600;
     text-decoration: none;
     margin-top: 100px;
@@ -733,5 +733,76 @@ margin-left: 5px;
 }
 .btn-group{
   margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.frase{
+  background-color: lightgrey;
+  display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+}
+.frase > p{
+  font-style: bold;
+color: grey;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.carousel-caption > h5{
+  color: black;
+  font-size: 35px;
+  background-color: whitesmoke;
+  opacity: 0.66;
+  }
+
+.carousel-caption > p{
+color: black;
+font-size: 25px;
+background-color: whitesmoke;
+  opacity: 0.66;
+}
+
+.pie{
+  color: #343434;
+  font-size: 15px;
+text-align: center;
+}
+
+footer{
+  background-color: peachpuff;
+}
+.dropdown .btn{
+  padding: 15px;
+  background-color: #FD7659;
+}
+.dropdown-menu{
+  padding: 20px;
+  margin-right: 40px;
+}
+.navbar-nav{
+  margin-right: 0;
+}
+
+.promo{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: white;
+  padding-right: 600px;
+  padding-left: 600px;
+}
+.videoPromo > video{
+  margin-right: 30px;
+}
+.publicidad > h3{
+  font-size: 30px;
+}
+.publicidad > p{
+  font-size: 15px;
+  text-align: justify;
+}
+.publicidad> input{
   margin-bottom: 20px;
 }
